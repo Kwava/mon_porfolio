@@ -1,0 +1,317 @@
+*{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    font-family: 'Segoe UI', Tahoma, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Verdana, sans-serif;
+   margin: 0;
+}
+nav{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#b0e1ea;
+   z-index: 5;
+   position: sticky;
+  
+}
+nav .logo h3 span{
+   
+    color: #3388cc; 
+    font-weight: bolder;
+}
+nav .logo h3 {
+    font-weight: bolder;
+    color:white;
+    padding-left: 2rem;
+   font-size: 20px;
+   position: sticky;
+   
+}
+
+header{
+    height: 300px;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    margin-left: 5%;
+    color:darkgray; 
+}
+header .profile{
+    position: absolute;
+    left: 70%;
+    margin-top: 2%;
+}
+ .profile{
+    display: flex;
+    align-items:center;
+}
+.profile img{
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+   
+   
+}
+nav .profile h1{
+    margin-left: 10px;
+    font-size: 15px;
+   
+}
+header h1 span{
+    color:#8aa2d3
+}
+.description{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.description .mes-fonctions{
+    position: absolute;
+   bottom: 1%;
+  
+   margin-left: 2%;
+   padding: 5px 10px;
+   border-radius: 15px;
+}
+.description p{
+    font-size: 14 px;
+    color: #919191;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-right: 2rem;
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+nav ul li:hover{
+    border-bottom-color:#000;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+}
+nav ul li a:hover{
+    color:aqua;
+    
+}
+
+.page-content{
+    margin: 4%;
+}
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 3vw;
+}
+.page-content header p{
+    line-height: 30px;
+    color: #818181;
+
+}
+.page-content header button{
+    background-color:inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding: bottom 5px;
+    cursor: pointer; 
+    border-bottom:1px solid #cccc;
+}
+
+.page-content header button:hover{
+   color:#ccc;
+   border-color: #000;
+}
+.page-content .content-image{
+    margin-top: 5%;
+}
+.page-content .content-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+   }.page-content .projets-section{
+    margin-top: 6%;
+}
+.page-content .projets-section h1{
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.page-content .projets-section .projets{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.page-content .projets-section .projets .projet{
+    margin-right: 15px;
+    max-width: 195px;
+}
+.page-content .projets-section .projets .projet h4{
+    margin: 0%;
+}
+.page-content .projets-section .projets .projet .description{
+    font-size: 10px;
+
+}
+.page-content .projets-section .projets .projet .dates{
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+
+}
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+}
+footer .colonne p{
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
+footer .colonne p:hover{
+    color:#fff;
+
+}
+/*style CV ici*/
+body{
+   
+}
+.page{
+    width:780px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Verdana, sans-serif;
+    font-size: 16px;
+    border:5px solid #3388cc;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px;
+    padding: 20px;
+    background-color: white;
+
+   
+}
+.info-photo{
+    height: 250px;
+}
+.info{
+    float: left;
+}
+.photo{
+    
+    float: right;
+    
+}
+.photo img{
+    margin-top: 15%;
+    height: 200px;
+    width:200px;
+    border-radius: 15px;
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.sect-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sect-droite{
+    margin-left: 150px;
+    margin-top: 38px;
+}
+h2{
+    font-size: 28px;
+    color:#3388bb;
+    border-bottom: 3px solid #3388bb;
+}
+.duree{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+#forma-gauche p{
+    margin-bottom: 38px ;
+}
+#exp-gauche p{
+    margin-top: 28px;
+  margin-right: 3.5rem;
+  
+    
+}
+#lang-droite-sub p{
+    margin-top: 43px;
+}
+#lang-droite p{
+    line-height: 18px;
+}
+#interet-gauche{
+    margin-top: 35px;
+}
+.nom{
+    font-size: 23px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    nav{
+        justify-content: center;
+       
+    }
+    nav ul{
+        flex-wrap: wrap;
+       
+    }
+    .page-content header{
+        margin-top: 20px;
+        max-width: 100%;
+       
+    }
+    .page-content .projets-section h1{
+        font-size: 1.5em;
+    }
+    .page-content .projets-section .projets .projet{
+        margin-right: 0%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    footer{
+       
+
+
+    }
+    footer .colonne{
+        width: 80%;
+        
+    }
+    .page-content header h1{
+        font-size: 1.2rem;
+        
+    }   
+}
